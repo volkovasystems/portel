@@ -1,0 +1,29 @@
+{
+  "name": "portel",
+  "version": "0.0.0",
+  "description": "Transform non-object entity to object entity.",
+  "main": "portel.deploy.js",
+  "support": "portel.support.js",
+  "authors": [
+    "Richeve S. Bebedor <richeve.bebedor@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "transform",
+    "non-object",
+    "entity",
+    "object",
+    "portel"
+  ],
+  "homepage": "https://github.com/volkovasystems/portel",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "protype": "^0.18.0"
+  }
+}
