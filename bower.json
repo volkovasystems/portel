@@ -1,6 +1,6 @@
 {
   "name": "portel",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Transform non-object entity to object entity.",
   "main": "portel.deploy.js",
   "support": "portel.support.js",
@@ -25,6 +25,6 @@
     "tests"
   ],
   "dependencies": {
-    "protype": "^0.20.0"
+    "protype": "^0.21.0"
   }
 }
