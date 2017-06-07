@@ -1,8 +1,11 @@
 
+const assert = require( "assert" );
 const portel = require( "./portel.js" );
 
-console.log( typeof portel( 12345 ), portel( 12345 ) );
+assert.equal( typeof portel( 12345 ), "object", "should have value 'object'" );
 
-console.log( typeof portel( "hello world" ), portel( "hello world" ) );
+assert.equal( typeof portel( "hello world" ), "object", "should have value 'object'" );
 
-console.log( typeof portel( false ), portel( false ) );
+assert.equal( typeof portel( false ), "object", "should have value 'object'" );
+
+console.log( "ok" );
