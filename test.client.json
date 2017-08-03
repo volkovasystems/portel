@@ -1,0 +1,84 @@
+{
+	"state": {
+		"passed": 1,
+		"failed": 0,
+		"skipped": 0
+	},
+	"start": "2017-08-03T06:12:05.183Z",
+	"end": "2017-08-03T06:12:45.698Z",
+	"capabilities": {
+		"browserName": "chrome",
+		"chromeOptions": {
+			"args": [
+				"disable-gpu",
+				"headless"
+			]
+		},
+		"proxy": null
+	},
+	"host": "127.0.0.1",
+	"port": 4444,
+	"baseUrl": "http://localhost",
+	"framework": "mocha",
+	"mochaOpts": {
+		"timeout": 10000,
+		"ui": "bdd"
+	},
+	"suites": [
+		{
+			"name": "portel",
+			"duration": 0,
+			"start": "2017-08-03T06:12:44.491Z",
+			"tests": [],
+			"hooks": []
+		},
+		{
+			"name": "portel",
+			"duration": 1030,
+			"start": "2017-08-03T06:12:44.491Z",
+			"end": "2017-08-03T06:12:45.521Z",
+			"tests": [],
+			"hooks": [
+				{
+					"start": "2017-08-03T06:12:44.493Z",
+					"end": "2017-08-03T06:12:44.493Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "portel",
+					"associatedTest": "should return Data instance"
+				},
+				{
+					"start": "2017-08-03T06:12:45.520Z",
+					"end": "2017-08-03T06:12:45.520Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "portel",
+					"associatedTest": "should return Data instance"
+				},
+				{
+					"start": "2017-08-03T06:12:45.521Z",
+					"end": "2017-08-03T06:12:45.521Z",
+					"duration": 0,
+					"title": "\"after all\" hook",
+					"associatedSuite": "portel"
+				}
+			]
+		},
+		{
+			"name": "`portel( 'hello' )`",
+			"duration": 1028,
+			"start": "2017-08-03T06:12:44.492Z",
+			"end": "2017-08-03T06:12:45.520Z",
+			"tests": [
+				{
+					"name": "should return Data instance",
+					"start": "2017-08-03T06:12:44.492Z",
+					"end": "2017-08-03T06:12:45.519Z",
+					"duration": 1027,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		}
+	]
+}

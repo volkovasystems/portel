@@ -1,0 +1,32 @@
+{
+	"stats": {
+		"suites": 2,
+		"tests": 1,
+		"passes": 1,
+		"pending": 0,
+		"failures": 0,
+		"start": "2017-08-03T06:12:03.814Z",
+		"end": "2017-08-03T06:12:03.819Z",
+		"duration": 5
+	},
+	"tests": [
+		{
+			"title": "should return object type",
+			"fullTitle": "portel `portel( 'hello' )` should return object type",
+			"duration": 1,
+			"currentRetry": 0,
+			"err": {}
+		}
+	],
+	"pending": [],
+	"failures": [],
+	"passes": [
+		{
+			"title": "should return object type",
+			"fullTitle": "portel `portel( 'hello' )` should return object type",
+			"duration": 1,
+			"currentRetry": 0,
+			"err": {}
+		}
+	]
+}
