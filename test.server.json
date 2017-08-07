@@ -5,15 +5,15 @@
 		"passes": 1,
 		"pending": 0,
 		"failures": 0,
-		"start": "2017-08-03T06:12:03.814Z",
-		"end": "2017-08-03T06:12:03.819Z",
+		"start": "2017-08-07T10:58:38.051Z",
+		"end": "2017-08-07T10:58:38.056Z",
 		"duration": 5
 	},
 	"tests": [
 		{
 			"title": "should return object type",
 			"fullTitle": "portel `portel( 'hello' )` should return object type",
-			"duration": 1,
+			"duration": 2,
 			"currentRetry": 0,
 			"err": {}
 		}
@@ -24,7 +24,7 @@
 		{
 			"title": "should return object type",
 			"fullTitle": "portel `portel( 'hello' )` should return object type",
-			"duration": 1,
+			"duration": 2,
 			"currentRetry": 0,
 			"err": {}
 		}
