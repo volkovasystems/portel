@@ -72,6 +72,54 @@ describe( "portel", ( ) => {
 		} );
 	} );
 
+	describe( "`portel( 123 )`", ( ) => {
+		it( "should return object type", ( ) => {
+			assert.equal( typeof portel( 123 ), "object" );
+		} );
+	} );
+
+	describe( "`portel( true )`", ( ) => {
+		it( "should return object type", ( ) => {
+			assert.equal( typeof portel( true ), "object" );
+		} );
+	} );
+
+	describe( "`portel( { 'name': 'simple' } )`", ( ) => {
+		it( "should return object type", ( ) => {
+			assert.equal( typeof portel( { "name": "simple" } ), "object" );
+		} );
+	} );
+
+	describe( "`portel( Symbol.for( 'hello' ) )`", ( ) => {
+		it( "should return object type", ( ) => {
+			assert.equal( typeof portel( Symbol.for( "hello" ) ), "object" );
+		} );
+	} );
+
+	describe( "`portel( function hello( ){ } )`", ( ) => {
+		it( "should return object type", ( ) => {
+			assert.equal( typeof portel( function hello( ){ } ), "object" );
+		} );
+	} );
+
+	describe( "`portel( null )`", ( ) => {
+		it( "should return object type", ( ) => {
+			assert.equal( typeof portel( null ), "object" );
+		} );
+	} );
+
+	describe( "`portel( undefined )`", ( ) => {
+		it( "should return object type", ( ) => {
+			assert.equal( typeof portel( undefined ), "object" );
+		} );
+	} );
+
+	describe( "`portel( NaN )`", ( ) => {
+		it( "should return object type", ( ) => {
+			assert.equal( typeof portel( NaN ), "object" );
+		} );
+	} );
+
 } );
 
 //: @end-server

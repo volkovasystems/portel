@@ -206,6 +206,127 @@ describe( "portel", ( ) => {
 		} );
 	} );
 
+	describe( "`portel( 123 )`", ( ) => {
+		it( "should return object type", ( ) => {
+			//: @ignore:
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return typeof portel( 123 );
+				}
+
+			).value;
+			//: @end-ignore
+			assert.equal( result, "object" );
+
+		} );
+	} );
+
+	describe( "`portel( true )`", ( ) => {
+		it( "should return object type", ( ) => {
+			//: @ignore:
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return typeof portel( true );
+				}
+
+			).value;
+			//: @end-ignore
+			assert.equal( result, "object" );
+		} );
+	} );
+
+	describe( "`portel( { 'name': 'simple' } )`", ( ) => {
+		it( "should return object type", ( ) => {
+			//: @ignore:
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return typeof portel( { "name": "simple" } );
+				}
+
+			).value;
+			//: @end-ignore
+			assert.equal( result, "object" );
+		} );
+	} );
+
+	describe( "`portel( Symbol.for( 'hello' ) )`", ( ) => {
+		it( "should return object type", ( ) => {
+			//: @ignore:
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return typeof portel( Symbol.for( "hello" ) );
+				}
+
+			).value;
+			//: @end-ignore
+			assert.equal( result, "object" );
+		} );
+	} );
+
+	describe( "`portel( function hello( ){ } )`", ( ) => {
+		it( "should return object type", ( ) => {
+			//: @ignore:
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return typeof portel( function hello( ){ } );
+				}
+
+			).value;
+			//: @end-ignore
+			assert.equal( result, "object" );
+		} );
+	} );
+
+	describe( "`portel( null )`", ( ) => {
+		it( "should return object type", ( ) => {
+			//: @ignore:
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return typeof portel( null );
+				}
+
+			).value;
+			//: @end-ignore
+			assert.equal( result, "object" );
+		} );
+	} );
+
+	describe( "`portel( undefined )`", ( ) => {
+		it( "should return object type", ( ) => {
+			//: @ignore:
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return typeof portel( undefined );
+				}
+
+			).value;
+			//: @end-ignore
+			assert.equal( result, "object" );
+		} );
+	} );
+
+	describe( "`portel( NaN )`", ( ) => {
+		it( "should return object type", ( ) => {
+			//: @ignore:
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return typeof portel( NaN );
+				}
+
+			).value;
+			//: @end-ignore
+			assert.equal( result, "object" );
+		} );
+	} );
+
 } );
 
 //: @end-bridge
