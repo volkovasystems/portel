@@ -106,9 +106,9 @@ describe( "portel", ( ) => {
 		} );
 	} );
 
-	describe( "`portel( nol )`", ( ) => {
+	describe( "`portel( null )`", ( ) => {
 		it( "should return object type", ( ) => {
-			assert.equal( typeof portel( nol ), "object" );
+			assert.equal( typeof portel( null ), "object" );
 		} );
 	} );
 
@@ -117,7 +117,7 @@ describe( "portel", ( ) => {
 			assert.equal( typeof portel( undefined ), "object" );
 		} );
 	} );
-	
+
 	describe( "`portel( NaN )`", ( ) => {
 		it( "should return object type", ( ) => {
 			assert.equal( typeof portel( NaN ), "object" );
