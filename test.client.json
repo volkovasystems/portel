@@ -1,11 +1,11 @@
 {
 	"state": {
-		"passed": 10,
+		"passed": 12,
 		"failed": 0,
 		"skipped": 0
 	},
-	"start": "2017-08-15T07:00:36.011Z",
-	"end": "2017-08-15T07:01:12.247Z",
+	"start": "2017-08-15T07:26:14.374Z",
+	"end": "2017-08-15T07:26:50.668Z",
 	"capabilities": {
 		"browserName": "chrome",
 		"chromeOptions": {
@@ -28,180 +28,212 @@
 		{
 			"name": "portel",
 			"duration": 0,
-			"start": "2017-08-15T07:01:10.623Z",
+			"start": "2017-08-15T07:26:48.289Z",
 			"tests": [],
 			"hooks": []
 		},
 		{
 			"name": "portel",
-			"duration": 1444,
-			"start": "2017-08-15T07:01:10.624Z",
-			"end": "2017-08-15T07:01:12.068Z",
+			"duration": 2197,
+			"start": "2017-08-15T07:26:48.290Z",
+			"end": "2017-08-15T07:26:50.487Z",
 			"tests": [],
 			"hooks": [
 				{
-					"start": "2017-08-15T07:01:10.625Z",
-					"end": "2017-08-15T07:01:10.625Z",
+					"start": "2017-08-15T07:26:48.292Z",
+					"end": "2017-08-15T07:26:48.292Z",
 					"duration": 0,
 					"title": "\"before each\" hook",
 					"associatedSuite": "portel",
 					"associatedTest": "should return Data instance"
 				},
 				{
-					"start": "2017-08-15T07:01:11.024Z",
-					"end": "2017-08-15T07:01:11.025Z",
-					"duration": 1,
+					"start": "2017-08-15T07:26:49.198Z",
+					"end": "2017-08-15T07:26:49.198Z",
+					"duration": 0,
 					"title": "\"after each\" hook",
 					"associatedSuite": "portel",
 					"associatedTest": "should return Data instance"
 				},
 				{
-					"start": "2017-08-15T07:01:11.026Z",
-					"end": "2017-08-15T07:01:11.026Z",
-					"duration": 0,
-					"title": "\"before each\" hook",
-					"associatedSuite": "portel",
-					"associatedTest": "should return object type"
-				},
-				{
-					"start": "2017-08-15T07:01:11.147Z",
-					"end": "2017-08-15T07:01:11.147Z",
-					"duration": 0,
-					"title": "\"after each\" hook",
-					"associatedSuite": "portel",
-					"associatedTest": "should return object type"
-				},
-				{
-					"start": "2017-08-15T07:01:11.148Z",
-					"end": "2017-08-15T07:01:11.148Z",
-					"duration": 0,
-					"title": "\"before each\" hook",
-					"associatedSuite": "portel",
-					"associatedTest": "should return object type"
-				},
-				{
-					"start": "2017-08-15T07:01:11.266Z",
-					"end": "2017-08-15T07:01:11.266Z",
-					"duration": 0,
-					"title": "\"after each\" hook",
-					"associatedSuite": "portel",
-					"associatedTest": "should return object type"
-				},
-				{
-					"start": "2017-08-15T07:01:11.267Z",
-					"end": "2017-08-15T07:01:11.267Z",
-					"duration": 0,
-					"title": "\"before each\" hook",
-					"associatedSuite": "portel",
-					"associatedTest": "should return object type"
-				},
-				{
-					"start": "2017-08-15T07:01:11.380Z",
-					"end": "2017-08-15T07:01:11.380Z",
-					"duration": 0,
-					"title": "\"after each\" hook",
-					"associatedSuite": "portel",
-					"associatedTest": "should return object type"
-				},
-				{
-					"start": "2017-08-15T07:01:11.381Z",
-					"end": "2017-08-15T07:01:11.381Z",
-					"duration": 0,
-					"title": "\"before each\" hook",
-					"associatedSuite": "portel",
-					"associatedTest": "should return object type"
-				},
-				{
-					"start": "2017-08-15T07:01:11.493Z",
-					"end": "2017-08-15T07:01:11.493Z",
-					"duration": 0,
-					"title": "\"after each\" hook",
-					"associatedSuite": "portel",
-					"associatedTest": "should return object type"
-				},
-				{
-					"start": "2017-08-15T07:01:11.494Z",
-					"end": "2017-08-15T07:01:11.494Z",
-					"duration": 0,
-					"title": "\"before each\" hook",
-					"associatedSuite": "portel",
-					"associatedTest": "should return object type"
-				},
-				{
-					"start": "2017-08-15T07:01:11.612Z",
-					"end": "2017-08-15T07:01:11.612Z",
-					"duration": 0,
-					"title": "\"after each\" hook",
-					"associatedSuite": "portel",
-					"associatedTest": "should return object type"
-				},
-				{
-					"start": "2017-08-15T07:01:11.614Z",
-					"end": "2017-08-15T07:01:11.614Z",
-					"duration": 0,
-					"title": "\"before each\" hook",
-					"associatedSuite": "portel",
-					"associatedTest": "should return object type"
-				},
-				{
-					"start": "2017-08-15T07:01:11.723Z",
-					"end": "2017-08-15T07:01:11.723Z",
-					"duration": 0,
-					"title": "\"after each\" hook",
-					"associatedSuite": "portel",
-					"associatedTest": "should return object type"
-				},
-				{
-					"start": "2017-08-15T07:01:11.724Z",
-					"end": "2017-08-15T07:01:11.725Z",
+					"start": "2017-08-15T07:26:49.199Z",
+					"end": "2017-08-15T07:26:49.200Z",
 					"duration": 1,
 					"title": "\"before each\" hook",
 					"associatedSuite": "portel",
 					"associatedTest": "should return object type"
 				},
 				{
-					"start": "2017-08-15T07:01:11.836Z",
-					"end": "2017-08-15T07:01:11.836Z",
+					"start": "2017-08-15T07:26:49.316Z",
+					"end": "2017-08-15T07:26:49.316Z",
 					"duration": 0,
 					"title": "\"after each\" hook",
 					"associatedSuite": "portel",
 					"associatedTest": "should return object type"
 				},
 				{
-					"start": "2017-08-15T07:01:11.838Z",
-					"end": "2017-08-15T07:01:11.839Z",
-					"duration": 1,
-					"title": "\"before each\" hook",
-					"associatedSuite": "portel",
-					"associatedTest": "should return object type"
-				},
-				{
-					"start": "2017-08-15T07:01:11.954Z",
-					"end": "2017-08-15T07:01:11.954Z",
-					"duration": 0,
-					"title": "\"after each\" hook",
-					"associatedSuite": "portel",
-					"associatedTest": "should return object type"
-				},
-				{
-					"start": "2017-08-15T07:01:11.956Z",
-					"end": "2017-08-15T07:01:11.956Z",
+					"start": "2017-08-15T07:26:49.317Z",
+					"end": "2017-08-15T07:26:49.317Z",
 					"duration": 0,
 					"title": "\"before each\" hook",
 					"associatedSuite": "portel",
 					"associatedTest": "should return object type"
 				},
 				{
-					"start": "2017-08-15T07:01:12.067Z",
-					"end": "2017-08-15T07:01:12.068Z",
-					"duration": 1,
+					"start": "2017-08-15T07:26:49.436Z",
+					"end": "2017-08-15T07:26:49.436Z",
+					"duration": 0,
 					"title": "\"after each\" hook",
 					"associatedSuite": "portel",
 					"associatedTest": "should return object type"
 				},
 				{
-					"start": "2017-08-15T07:01:12.068Z",
-					"end": "2017-08-15T07:01:12.068Z",
+					"start": "2017-08-15T07:26:49.437Z",
+					"end": "2017-08-15T07:26:49.437Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "portel",
+					"associatedTest": "should return object type"
+				},
+				{
+					"start": "2017-08-15T07:26:49.550Z",
+					"end": "2017-08-15T07:26:49.550Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "portel",
+					"associatedTest": "should return object type"
+				},
+				{
+					"start": "2017-08-15T07:26:49.551Z",
+					"end": "2017-08-15T07:26:49.551Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "portel",
+					"associatedTest": "should return object type"
+				},
+				{
+					"start": "2017-08-15T07:26:49.663Z",
+					"end": "2017-08-15T07:26:49.663Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "portel",
+					"associatedTest": "should return object type"
+				},
+				{
+					"start": "2017-08-15T07:26:49.664Z",
+					"end": "2017-08-15T07:26:49.664Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "portel",
+					"associatedTest": "should return object type"
+				},
+				{
+					"start": "2017-08-15T07:26:49.778Z",
+					"end": "2017-08-15T07:26:49.778Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "portel",
+					"associatedTest": "should return object type"
+				},
+				{
+					"start": "2017-08-15T07:26:49.779Z",
+					"end": "2017-08-15T07:26:49.779Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "portel",
+					"associatedTest": "should return object type"
+				},
+				{
+					"start": "2017-08-15T07:26:49.894Z",
+					"end": "2017-08-15T07:26:49.894Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "portel",
+					"associatedTest": "should return object type"
+				},
+				{
+					"start": "2017-08-15T07:26:49.895Z",
+					"end": "2017-08-15T07:26:49.896Z",
+					"duration": 1,
+					"title": "\"before each\" hook",
+					"associatedSuite": "portel",
+					"associatedTest": "should return object type"
+				},
+				{
+					"start": "2017-08-15T07:26:50.007Z",
+					"end": "2017-08-15T07:26:50.007Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "portel",
+					"associatedTest": "should return object type"
+				},
+				{
+					"start": "2017-08-15T07:26:50.009Z",
+					"end": "2017-08-15T07:26:50.010Z",
+					"duration": 1,
+					"title": "\"before each\" hook",
+					"associatedSuite": "portel",
+					"associatedTest": "should return object type"
+				},
+				{
+					"start": "2017-08-15T07:26:50.128Z",
+					"end": "2017-08-15T07:26:50.128Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "portel",
+					"associatedTest": "should return object type"
+				},
+				{
+					"start": "2017-08-15T07:26:50.128Z",
+					"end": "2017-08-15T07:26:50.128Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "portel",
+					"associatedTest": "should return object type"
+				},
+				{
+					"start": "2017-08-15T07:26:50.243Z",
+					"end": "2017-08-15T07:26:50.243Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "portel",
+					"associatedTest": "should return object type"
+				},
+				{
+					"start": "2017-08-15T07:26:50.243Z",
+					"end": "2017-08-15T07:26:50.243Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "portel",
+					"associatedTest": "should return object type"
+				},
+				{
+					"start": "2017-08-15T07:26:50.361Z",
+					"end": "2017-08-15T07:26:50.361Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "portel",
+					"associatedTest": "should return object type"
+				},
+				{
+					"start": "2017-08-15T07:26:50.362Z",
+					"end": "2017-08-15T07:26:50.362Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "portel",
+					"associatedTest": "should return object type"
+				},
+				{
+					"start": "2017-08-15T07:26:50.487Z",
+					"end": "2017-08-15T07:26:50.487Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "portel",
+					"associatedTest": "should return object type"
+				},
+				{
+					"start": "2017-08-15T07:26:50.487Z",
+					"end": "2017-08-15T07:26:50.487Z",
 					"duration": 0,
 					"title": "\"after all\" hook",
 					"associatedSuite": "portel"
@@ -210,15 +242,15 @@
 		},
 		{
 			"name": "`portel( 'hello' )`",
-			"duration": 401,
-			"start": "2017-08-15T07:01:10.624Z",
-			"end": "2017-08-15T07:01:11.025Z",
+			"duration": 908,
+			"start": "2017-08-15T07:26:48.291Z",
+			"end": "2017-08-15T07:26:49.199Z",
 			"tests": [
 				{
 					"name": "should return Data instance",
-					"start": "2017-08-15T07:01:10.625Z",
-					"end": "2017-08-15T07:01:11.024Z",
-					"duration": 399,
+					"start": "2017-08-15T07:26:48.291Z",
+					"end": "2017-08-15T07:26:49.198Z",
+					"duration": 907,
 					"state": "pass"
 				}
 			],
@@ -226,126 +258,14 @@
 		},
 		{
 			"name": "`portel( 123 )`",
-			"duration": 122,
-			"start": "2017-08-15T07:01:11.025Z",
-			"end": "2017-08-15T07:01:11.147Z",
-			"tests": [
-				{
-					"name": "should return object type",
-					"start": "2017-08-15T07:01:11.026Z",
-					"end": "2017-08-15T07:01:11.147Z",
-					"duration": 121,
-					"state": "pass"
-				}
-			],
-			"hooks": []
-		},
-		{
-			"name": "`portel( true )`",
 			"duration": 118,
-			"start": "2017-08-15T07:01:11.148Z",
-			"end": "2017-08-15T07:01:11.266Z",
+			"start": "2017-08-15T07:26:49.199Z",
+			"end": "2017-08-15T07:26:49.317Z",
 			"tests": [
 				{
 					"name": "should return object type",
-					"start": "2017-08-15T07:01:11.148Z",
-					"end": "2017-08-15T07:01:11.266Z",
-					"duration": 118,
-					"state": "pass"
-				}
-			],
-			"hooks": []
-		},
-		{
-			"name": "`portel( { 'name': 'simple' } )`",
-			"duration": 115,
-			"start": "2017-08-15T07:01:11.266Z",
-			"end": "2017-08-15T07:01:11.381Z",
-			"tests": [
-				{
-					"name": "should return object type",
-					"start": "2017-08-15T07:01:11.266Z",
-					"end": "2017-08-15T07:01:11.380Z",
-					"duration": 114,
-					"state": "pass"
-				}
-			],
-			"hooks": []
-		},
-		{
-			"name": "`portel( Symbol.for( 'hello' ) )`",
-			"duration": 112,
-			"start": "2017-08-15T07:01:11.381Z",
-			"end": "2017-08-15T07:01:11.493Z",
-			"tests": [
-				{
-					"name": "should return object type",
-					"start": "2017-08-15T07:01:11.381Z",
-					"end": "2017-08-15T07:01:11.493Z",
-					"duration": 112,
-					"state": "pass"
-				}
-			],
-			"hooks": []
-		},
-		{
-			"name": "`portel( function hello( ){ } )`",
-			"duration": 119,
-			"start": "2017-08-15T07:01:11.493Z",
-			"end": "2017-08-15T07:01:11.612Z",
-			"tests": [
-				{
-					"name": "should return object type",
-					"start": "2017-08-15T07:01:11.494Z",
-					"end": "2017-08-15T07:01:11.612Z",
-					"duration": 118,
-					"state": "pass"
-				}
-			],
-			"hooks": []
-		},
-		{
-			"name": "`portel( ( ) => { } )`",
-			"duration": 110,
-			"start": "2017-08-15T07:01:11.613Z",
-			"end": "2017-08-15T07:01:11.723Z",
-			"tests": [
-				{
-					"name": "should return object type",
-					"start": "2017-08-15T07:01:11.613Z",
-					"end": "2017-08-15T07:01:11.723Z",
-					"duration": 110,
-					"state": "pass"
-				}
-			],
-			"hooks": []
-		},
-		{
-			"name": "`portel( null )`",
-			"duration": 114,
-			"start": "2017-08-15T07:01:11.723Z",
-			"end": "2017-08-15T07:01:11.837Z",
-			"tests": [
-				{
-					"name": "should return object type",
-					"start": "2017-08-15T07:01:11.724Z",
-					"end": "2017-08-15T07:01:11.836Z",
-					"duration": 112,
-					"state": "pass"
-				}
-			],
-			"hooks": []
-		},
-		{
-			"name": "`portel( undefined )`",
-			"duration": 119,
-			"start": "2017-08-15T07:01:11.837Z",
-			"end": "2017-08-15T07:01:11.956Z",
-			"tests": [
-				{
-					"name": "should return object type",
-					"start": "2017-08-15T07:01:11.837Z",
-					"end": "2017-08-15T07:01:11.954Z",
+					"start": "2017-08-15T07:26:49.199Z",
+					"end": "2017-08-15T07:26:49.316Z",
 					"duration": 117,
 					"state": "pass"
 				}
@@ -353,16 +273,160 @@
 			"hooks": []
 		},
 		{
-			"name": "`portel( NaN )`",
-			"duration": 112,
-			"start": "2017-08-15T07:01:11.956Z",
-			"end": "2017-08-15T07:01:12.068Z",
+			"name": "`portel( true )`",
+			"duration": 119,
+			"start": "2017-08-15T07:26:49.317Z",
+			"end": "2017-08-15T07:26:49.436Z",
 			"tests": [
 				{
 					"name": "should return object type",
-					"start": "2017-08-15T07:01:11.956Z",
-					"end": "2017-08-15T07:01:12.067Z",
-					"duration": 111,
+					"start": "2017-08-15T07:26:49.317Z",
+					"end": "2017-08-15T07:26:49.436Z",
+					"duration": 119,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`portel( { 'name': 'simple' } )`",
+			"duration": 114,
+			"start": "2017-08-15T07:26:49.436Z",
+			"end": "2017-08-15T07:26:49.550Z",
+			"tests": [
+				{
+					"name": "should return object type",
+					"start": "2017-08-15T07:26:49.437Z",
+					"end": "2017-08-15T07:26:49.550Z",
+					"duration": 113,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`portel( Symbol.for( 'hello' ) )`",
+			"duration": 113,
+			"start": "2017-08-15T07:26:49.550Z",
+			"end": "2017-08-15T07:26:49.663Z",
+			"tests": [
+				{
+					"name": "should return object type",
+					"start": "2017-08-15T07:26:49.550Z",
+					"end": "2017-08-15T07:26:49.663Z",
+					"duration": 113,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`portel( function hello( ){ } )`",
+			"duration": 115,
+			"start": "2017-08-15T07:26:49.663Z",
+			"end": "2017-08-15T07:26:49.778Z",
+			"tests": [
+				{
+					"name": "should return object type",
+					"start": "2017-08-15T07:26:49.664Z",
+					"end": "2017-08-15T07:26:49.776Z",
+					"duration": 112,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`portel( ( ) => { } )`",
+			"duration": 115,
+			"start": "2017-08-15T07:26:49.779Z",
+			"end": "2017-08-15T07:26:49.894Z",
+			"tests": [
+				{
+					"name": "should return object type",
+					"start": "2017-08-15T07:26:49.779Z",
+					"end": "2017-08-15T07:26:49.894Z",
+					"duration": 115,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`portel with class`",
+			"duration": 114,
+			"start": "2017-08-15T07:26:49.894Z",
+			"end": "2017-08-15T07:26:50.008Z",
+			"tests": [
+				{
+					"name": "should return object type",
+					"start": "2017-08-15T07:26:49.894Z",
+					"end": "2017-08-15T07:26:50.007Z",
+					"duration": 113,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`portel( null )`",
+			"duration": 120,
+			"start": "2017-08-15T07:26:50.008Z",
+			"end": "2017-08-15T07:26:50.128Z",
+			"tests": [
+				{
+					"name": "should return object type",
+					"start": "2017-08-15T07:26:50.008Z",
+					"end": "2017-08-15T07:26:50.127Z",
+					"duration": 119,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`portel( undefined )`",
+			"duration": 115,
+			"start": "2017-08-15T07:26:50.128Z",
+			"end": "2017-08-15T07:26:50.243Z",
+			"tests": [
+				{
+					"name": "should return object type",
+					"start": "2017-08-15T07:26:50.128Z",
+					"end": "2017-08-15T07:26:50.243Z",
+					"duration": 115,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`portel( NaN )`",
+			"duration": 119,
+			"start": "2017-08-15T07:26:50.243Z",
+			"end": "2017-08-15T07:26:50.362Z",
+			"tests": [
+				{
+					"name": "should return object type",
+					"start": "2017-08-15T07:26:50.243Z",
+					"end": "2017-08-15T07:26:50.361Z",
+					"duration": 118,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`portel( Error )`",
+			"duration": 125,
+			"start": "2017-08-15T07:26:50.362Z",
+			"end": "2017-08-15T07:26:50.487Z",
+			"tests": [
+				{
+					"name": "should return object type",
+					"start": "2017-08-15T07:26:50.362Z",
+					"end": "2017-08-15T07:26:50.486Z",
+					"duration": 124,
 					"state": "pass"
 				}
 			],

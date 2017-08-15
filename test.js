@@ -108,6 +108,36 @@ describe( "portel", ( ) => {
 		} );
 	} );
 
+	describe( "`portel with class`", ( ) => {
+		it( "should return object type", ( ) => {
+
+			class Orange {
+				constructor( ){
+					this.color = "orange";
+				}
+				getColor( ){
+					return "orange";
+				}
+			}
+
+			class Apple extends Orange {
+				constructor( ){
+					super( );
+
+					this.color = "red";
+				}
+				getColor( ){
+					return this.color;
+				}
+			}
+
+			let apple = new Apple( );
+
+			assert.equal( typeof portel( apple ), "object" );
+
+		} );
+	} );
+
 	describe( "`portel( null )`", ( ) => {
 		it( "should return object type", ( ) => {
 			assert.equal( typeof portel( null ), "object" );
@@ -123,6 +153,12 @@ describe( "portel", ( ) => {
 	describe( "`portel( NaN )`", ( ) => {
 		it( "should return object type", ( ) => {
 			assert.equal( typeof portel( NaN ), "object" );
+		} );
+	} );
+
+	describe( "`portel( Error )`", ( ) => {
+		it( "should return object type", ( ) => {
+			assert.equal( typeof portel( Error ), "object" );
 		} );
 	} );
 

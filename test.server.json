@@ -1,19 +1,19 @@
 {
 	"stats": {
-		"suites": 11,
-		"tests": 10,
-		"passes": 10,
+		"suites": 13,
+		"tests": 12,
+		"passes": 12,
 		"pending": 0,
 		"failures": 0,
-		"start": "2017-08-15T07:00:34.906Z",
-		"end": "2017-08-15T07:00:34.916Z",
+		"start": "2017-08-15T07:26:13.216Z",
+		"end": "2017-08-15T07:26:13.226Z",
 		"duration": 10
 	},
 	"tests": [
 		{
 			"title": "should return object type",
 			"fullTitle": "portel `portel( 'hello' )` should return object type",
-			"duration": 1,
+			"duration": 2,
 			"currentRetry": 0,
 			"err": {}
 		},
@@ -34,7 +34,7 @@
 		{
 			"title": "should return object type",
 			"fullTitle": "portel `portel( { 'name': 'simple' } )` should return object type",
-			"duration": 1,
+			"duration": 2,
 			"currentRetry": 0,
 			"err": {}
 		},
@@ -55,6 +55,13 @@
 		{
 			"title": "should return object type",
 			"fullTitle": "portel `portel( ( ) => { } )` should return object type",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should return object type",
+			"fullTitle": "portel `portel with class` should return object type",
 			"duration": 1,
 			"currentRetry": 0,
 			"err": {}
@@ -76,7 +83,14 @@
 		{
 			"title": "should return object type",
 			"fullTitle": "portel `portel( NaN )` should return object type",
-			"duration": 1,
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should return object type",
+			"fullTitle": "portel `portel( Error )` should return object type",
+			"duration": 0,
 			"currentRetry": 0,
 			"err": {}
 		}
@@ -87,7 +101,7 @@
 		{
 			"title": "should return object type",
 			"fullTitle": "portel `portel( 'hello' )` should return object type",
-			"duration": 1,
+			"duration": 2,
 			"currentRetry": 0,
 			"err": {}
 		},
@@ -108,7 +122,7 @@
 		{
 			"title": "should return object type",
 			"fullTitle": "portel `portel( { 'name': 'simple' } )` should return object type",
-			"duration": 1,
+			"duration": 2,
 			"currentRetry": 0,
 			"err": {}
 		},
@@ -129,6 +143,13 @@
 		{
 			"title": "should return object type",
 			"fullTitle": "portel `portel( ( ) => { } )` should return object type",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should return object type",
+			"fullTitle": "portel `portel with class` should return object type",
 			"duration": 1,
 			"currentRetry": 0,
 			"err": {}
@@ -150,7 +171,14 @@
 		{
 			"title": "should return object type",
 			"fullTitle": "portel `portel( NaN )` should return object type",
-			"duration": 1,
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should return object type",
+			"fullTitle": "portel `portel( Error )` should return object type",
+			"duration": 0,
 			"currentRetry": 0,
 			"err": {}
 		}
