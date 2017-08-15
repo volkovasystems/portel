@@ -106,6 +106,12 @@ describe( "portel", ( ) => {
 		} );
 	} );
 
+	describe( "`portel( ( ) => { } )`", ( ) => {
+		it( "should return object type", ( ) => {
+			assert.equal( typeof portel( ( ) => { } ), "object" );
+		} );
+	} );
+
 	describe( "`portel( null )`", ( ) => {
 		it( "should return object type", ( ) => {
 			assert.equal( typeof portel( null ), "object" );
@@ -166,6 +172,12 @@ describe( "portel", ( ) => {
 	describe( "`portel( function hello( ){ } )`", ( ) => {
 		it( "should return object type", ( ) => {
 			assert.equal( typeof portel( function hello( ){ } ), "object" );
+		} );
+	} );
+
+	describe( "`portel( ( ) => { } )`", ( ) => {
+		it( "should return object type", ( ) => {
+			assert.equal( typeof portel( ( ) => { } ), "object" );
 		} );
 	} );
 
@@ -274,6 +286,21 @@ describe( "portel", ( ) => {
 
 				function( ){
 					return typeof portel( function hello( ){ } );
+				}
+
+			).value;
+			//: @end-ignore
+			assert.equal( result, "object" );
+		} );
+	} );
+
+	describe( "`portel( ( ) => { } )`", ( ) => {
+		it( "should return object type", ( ) => {
+			//: @ignore:
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return typeof portel( ( ) => { } );
 				}
 
 			).value;
