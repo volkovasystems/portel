@@ -130,6 +130,12 @@ describe( "portel", ( ) => {
 		} );
 	} );
 
+	describe( "`portel( Error )`", ( ) => {
+		it( "should return object type", ( ) => {
+			assert.equal( typeof portel( Error ), "object" );
+		} );
+	} );
+
 } );
 
 //: @end-server
@@ -196,6 +202,12 @@ describe( "portel", ( ) => {
 	describe( "`portel( NaN )`", ( ) => {
 		it( "should return object type", ( ) => {
 			assert.equal( typeof portel( NaN ), "object" );
+		} );
+	} );
+
+	describe( "`portel( Error )`", ( ) => {
+		it( "should return object type", ( ) => {
+			assert.equal( typeof portel( Error ), "object" );
 		} );
 	} );
 
@@ -346,6 +358,21 @@ describe( "portel", ( ) => {
 
 				function( ){
 					return typeof portel( NaN );
+				}
+
+			).value;
+			//: @end-ignore
+			assert.equal( result, "object" );
+		} );
+	} );
+
+	describe( "`portel( Error )`", ( ) => {
+		it( "should return object type", ( ) => {
+			//: @ignore:
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return typeof portel( Error );
 				}
 
 			).value;
