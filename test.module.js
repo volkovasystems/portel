@@ -112,6 +112,36 @@ describe( "portel", ( ) => {
 		} );
 	} );
 
+	describe( "`portel with class`", ( ) => {
+		it( "should return object type", ( ) => {
+
+			class Orange {
+				constructor( ){
+					this.color = "orange";
+				}
+				getColor( ){
+					return "orange";
+				}
+			}
+
+			class Apple extends Orange {
+				constructor( ){
+					super( );
+
+					this.color = "red";
+				}
+				getColor( ){
+					return this.color;
+				}
+			}
+
+			let apple = new Apple( );
+
+			assert.equal( typeof portel( apple ), "object" );
+
+		} );
+	} );
+
 	describe( "`portel( null )`", ( ) => {
 		it( "should return object type", ( ) => {
 			assert.equal( typeof portel( null ), "object" );
@@ -184,6 +214,36 @@ describe( "portel", ( ) => {
 	describe( "`portel( ( ) => { } )`", ( ) => {
 		it( "should return object type", ( ) => {
 			assert.equal( typeof portel( ( ) => { } ), "object" );
+		} );
+	} );
+
+	describe( "`portel with class`", ( ) => {
+		it( "should return object type", ( ) => {
+
+			class Orange {
+				constructor( ){
+					this.color = "orange";
+				}
+				getColor( ){
+					return "orange";
+				}
+			}
+
+			class Apple extends Orange {
+				constructor( ){
+					super( );
+
+					this.color = "red";
+				}
+				getColor( ){
+					return this.color;
+				}
+			}
+
+			let apple = new Apple( );
+
+			assert.equal( typeof portel( apple ), "object" );
+
 		} );
 	} );
 
@@ -318,6 +378,45 @@ describe( "portel", ( ) => {
 			).value;
 			//: @end-ignore
 			assert.equal( result, "object" );
+		} );
+	} );
+
+	describe( "`portel with class`", ( ) => {
+		it( "should return object type", ( ) => {
+			//: @ignore:
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+
+					class Orange {
+						constructor( ){
+							this.color = "orange";
+						}
+						getColor( ){
+							return "orange";
+						}
+					}
+
+					class Apple extends Orange {
+						constructor( ){
+							super( );
+
+							this.color = "red";
+						}
+						getColor( ){
+							return this.color;
+						}
+					}
+
+					let apple = new Apple( );
+
+					return typeof portel( apple );
+				}
+
+			).value;
+			//: @end-ignore
+			assert.equal( result, "object" );
+
 		} );
 	} );
 
