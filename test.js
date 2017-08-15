@@ -102,6 +102,12 @@ describe( "portel", ( ) => {
 		} );
 	} );
 
+	describe( "`portel( ( ) => { } )`", ( ) => {
+		it( "should return object type", ( ) => {
+			assert.equal( typeof portel( ( ) => { } ), "object" );
+		} );
+	} );
+
 	describe( "`portel( null )`", ( ) => {
 		it( "should return object type", ( ) => {
 			assert.equal( typeof portel( null ), "object" );
