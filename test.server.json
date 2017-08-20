@@ -1,186 +1,186 @@
 {
-	"stats": {
-		"suites": 13,
-		"tests": 12,
-		"passes": 12,
-		"pending": 0,
-		"failures": 0,
-		"start": "2017-08-15T07:26:13.216Z",
-		"end": "2017-08-15T07:26:13.226Z",
-		"duration": 10
-	},
-	"tests": [
-		{
-			"title": "should return object type",
-			"fullTitle": "portel `portel( 'hello' )` should return object type",
-			"duration": 2,
-			"currentRetry": 0,
-			"err": {}
-		},
-		{
-			"title": "should return object type",
-			"fullTitle": "portel `portel( 123 )` should return object type",
-			"duration": 0,
-			"currentRetry": 0,
-			"err": {}
-		},
-		{
-			"title": "should return object type",
-			"fullTitle": "portel `portel( true )` should return object type",
-			"duration": 0,
-			"currentRetry": 0,
-			"err": {}
-		},
-		{
-			"title": "should return object type",
-			"fullTitle": "portel `portel( { 'name': 'simple' } )` should return object type",
-			"duration": 2,
-			"currentRetry": 0,
-			"err": {}
-		},
-		{
-			"title": "should return object type",
-			"fullTitle": "portel `portel( Symbol.for( 'hello' ) )` should return object type",
-			"duration": 1,
-			"currentRetry": 0,
-			"err": {}
-		},
-		{
-			"title": "should return object type",
-			"fullTitle": "portel `portel( function hello( ){ } )` should return object type",
-			"duration": 0,
-			"currentRetry": 0,
-			"err": {}
-		},
-		{
-			"title": "should return object type",
-			"fullTitle": "portel `portel( ( ) => { } )` should return object type",
-			"duration": 0,
-			"currentRetry": 0,
-			"err": {}
-		},
-		{
-			"title": "should return object type",
-			"fullTitle": "portel `portel with class` should return object type",
-			"duration": 1,
-			"currentRetry": 0,
-			"err": {}
-		},
-		{
-			"title": "should return object type",
-			"fullTitle": "portel `portel( null )` should return object type",
-			"duration": 0,
-			"currentRetry": 0,
-			"err": {}
-		},
-		{
-			"title": "should return object type",
-			"fullTitle": "portel `portel( undefined )` should return object type",
-			"duration": 0,
-			"currentRetry": 0,
-			"err": {}
-		},
-		{
-			"title": "should return object type",
-			"fullTitle": "portel `portel( NaN )` should return object type",
-			"duration": 0,
-			"currentRetry": 0,
-			"err": {}
-		},
-		{
-			"title": "should return object type",
-			"fullTitle": "portel `portel( Error )` should return object type",
-			"duration": 0,
-			"currentRetry": 0,
-			"err": {}
-		}
-	],
-	"pending": [],
-	"failures": [],
-	"passes": [
-		{
-			"title": "should return object type",
-			"fullTitle": "portel `portel( 'hello' )` should return object type",
-			"duration": 2,
-			"currentRetry": 0,
-			"err": {}
-		},
-		{
-			"title": "should return object type",
-			"fullTitle": "portel `portel( 123 )` should return object type",
-			"duration": 0,
-			"currentRetry": 0,
-			"err": {}
-		},
-		{
-			"title": "should return object type",
-			"fullTitle": "portel `portel( true )` should return object type",
-			"duration": 0,
-			"currentRetry": 0,
-			"err": {}
-		},
-		{
-			"title": "should return object type",
-			"fullTitle": "portel `portel( { 'name': 'simple' } )` should return object type",
-			"duration": 2,
-			"currentRetry": 0,
-			"err": {}
-		},
-		{
-			"title": "should return object type",
-			"fullTitle": "portel `portel( Symbol.for( 'hello' ) )` should return object type",
-			"duration": 1,
-			"currentRetry": 0,
-			"err": {}
-		},
-		{
-			"title": "should return object type",
-			"fullTitle": "portel `portel( function hello( ){ } )` should return object type",
-			"duration": 0,
-			"currentRetry": 0,
-			"err": {}
-		},
-		{
-			"title": "should return object type",
-			"fullTitle": "portel `portel( ( ) => { } )` should return object type",
-			"duration": 0,
-			"currentRetry": 0,
-			"err": {}
-		},
-		{
-			"title": "should return object type",
-			"fullTitle": "portel `portel with class` should return object type",
-			"duration": 1,
-			"currentRetry": 0,
-			"err": {}
-		},
-		{
-			"title": "should return object type",
-			"fullTitle": "portel `portel( null )` should return object type",
-			"duration": 0,
-			"currentRetry": 0,
-			"err": {}
-		},
-		{
-			"title": "should return object type",
-			"fullTitle": "portel `portel( undefined )` should return object type",
-			"duration": 0,
-			"currentRetry": 0,
-			"err": {}
-		},
-		{
-			"title": "should return object type",
-			"fullTitle": "portel `portel( NaN )` should return object type",
-			"duration": 0,
-			"currentRetry": 0,
-			"err": {}
-		},
-		{
-			"title": "should return object type",
-			"fullTitle": "portel `portel( Error )` should return object type",
-			"duration": 0,
-			"currentRetry": 0,
-			"err": {}
-		}
-	]
+  "stats": {
+    "suites": 13,
+    "tests": 12,
+    "passes": 12,
+    "pending": 0,
+    "failures": 0,
+    "start": "2017-08-20T02:24:42.173Z",
+    "end": "2017-08-20T02:24:42.186Z",
+    "duration": 13
+  },
+  "tests": [
+    {
+      "title": "should return object type",
+      "fullTitle": "portel `portel( 'hello' )` should return object type",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return object type",
+      "fullTitle": "portel `portel( 123 )` should return object type",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return object type",
+      "fullTitle": "portel `portel( true )` should return object type",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return object type",
+      "fullTitle": "portel `portel( { 'name': 'simple' } )` should return object type",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return object type",
+      "fullTitle": "portel `portel( Symbol.for( 'hello' ) )` should return object type",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return object type",
+      "fullTitle": "portel `portel( function hello( ){ } )` should return object type",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return object type",
+      "fullTitle": "portel `portel( ( ) => { } )` should return object type",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return object type",
+      "fullTitle": "portel `portel with class` should return object type",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return object type",
+      "fullTitle": "portel `portel( null )` should return object type",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return object type",
+      "fullTitle": "portel `portel( undefined )` should return object type",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return object type",
+      "fullTitle": "portel `portel( NaN )` should return object type",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return object type",
+      "fullTitle": "portel `portel( Error )` should return object type",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "should return object type",
+      "fullTitle": "portel `portel( 'hello' )` should return object type",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return object type",
+      "fullTitle": "portel `portel( 123 )` should return object type",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return object type",
+      "fullTitle": "portel `portel( true )` should return object type",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return object type",
+      "fullTitle": "portel `portel( { 'name': 'simple' } )` should return object type",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return object type",
+      "fullTitle": "portel `portel( Symbol.for( 'hello' ) )` should return object type",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return object type",
+      "fullTitle": "portel `portel( function hello( ){ } )` should return object type",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return object type",
+      "fullTitle": "portel `portel( ( ) => { } )` should return object type",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return object type",
+      "fullTitle": "portel `portel with class` should return object type",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return object type",
+      "fullTitle": "portel `portel( null )` should return object type",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return object type",
+      "fullTitle": "portel `portel( undefined )` should return object type",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return object type",
+      "fullTitle": "portel `portel( NaN )` should return object type",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return object type",
+      "fullTitle": "portel `portel( Error )` should return object type",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
 }
